@@ -25,7 +25,7 @@ x2m = 2
 sigma1 = 1
 sigma2 = 1
 
-index = np.random.permutation(len(X))
+index = np.random.permutation(len(X))   
 for j in range(0,maxEpochs):
 
     ## Permute indexes of vector X
